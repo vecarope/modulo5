@@ -1,0 +1,4 @@
+SELECT *
+FROM film
+WHERE EXTRACT(YEAR FROM release_year) = 2006
+  AND rental_rate > 4.0;
